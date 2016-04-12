@@ -11,7 +11,6 @@ public class TaskEvenOdd implements Runnable {
         this.isEvenNumber = isEvenNumber;
     }
 
-    @Override
     public void run() {
 
         int number = isEvenNumber == true ? 2 : 1;

@@ -10,7 +10,6 @@ public class Consumer implements Runnable {
         this.data = data;
     }
 
-    @Override
     public void run() {
         synchronized (data) {
             try {
